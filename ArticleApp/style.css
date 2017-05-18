@@ -1,0 +1,165 @@
+
+/** {
+    outline: 1px solid red;
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #DBE2EC;
+    font-family: 'Crimson Text', serif;
+    color: #808080;
+}
+
+/* Main Container */
+
+.container {
+    max-width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Card Container */
+
+.column {
+    height: auto;
+    width: 33.33%;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Cards */
+
+.card {
+    background-color: #F7F8F9;
+    height: 560px;
+    box-shadow: 0px 0px 15px 5px #CFD6DF;
+    overflow: hidden;
+    position: relative;
+}
+
+/* First card - cover page */
+
+#cover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg");
+}
+
+.content {
+    position: absolute;
+    bottom: 60px;
+    padding-left: 20px;
+    max-width: 260px;
+}
+
+.author {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 2.8em;
+    text-transform: uppercase;
+
+}
+
+/* Navigation bars */
+
+.navbar-bottom {
+    background-color: #fff;
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-top {
+    background-color: #fff;
+    height: 48px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.navbar-top > :last-child {
+    color: red;
+    margin-left: auto;
+    padding: 20px;
+}
+
+
+.close {
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+/* 3rd card - comments */
+
+.comments {
+    position: absolute;
+    top: 60px;
+
+}
+
+.comment-card {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.commenter-text {
+    padding-left: 20px;
+}
+
+.commenter-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.commenter-avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+.comment-info {
+    display: flex;
+}
+
+.comment-info ul {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.comment-info ul:first-child {
+    padding-left: 0px;
+}
+
+/* Misc */
+
+.thumbnail {
+    min-width: 380px;
+    overflow: hidden;
+}
+
+.thumbnail img {
+
+}
