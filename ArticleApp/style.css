@@ -49,32 +49,6 @@ body {
     position: relative;
 }
 
-/* First card - cover page */
-
-#cover {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg");
-}
-
-.content {
-    position: absolute;
-    bottom: 60px;
-    padding-left: 20px;
-    max-width: 260px;
-}
-
-.author {
-    color: #FFF;
-    text-transform: uppercase;
-}
-
-.title {
-    margin-top: 10px;
-    color: #FFF;
-    font-size: 2.8em;
-    text-transform: uppercase;
-
-}
-
 /* Navigation bars */
 
 .navbar-bottom {
@@ -110,6 +84,52 @@ body {
 .close {
     padding: 10px;
     justify-content: flex-end;
+}
+
+
+/* First card - cover page */
+
+#cover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg");
+}
+
+.content {
+    position: absolute;
+    bottom: 60px;
+    padding-left: 20px;
+    max-width: 260px;
+}
+
+.author {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 2.8em;
+    text-transform: uppercase;
+
+}
+
+/* 2nd card - article */
+
+.article {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.article-start {
+    font-size: 70px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 25px;
+    line-height: 70px;
+    color: #000;
 }
 
 /* 3rd card - comments */
